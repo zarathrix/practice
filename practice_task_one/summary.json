@@ -1,0 +1,180 @@
+{
+  "quality": {
+    "events": 12162,
+    "processes": 1000,
+    "duplicate_event_ids": 0,
+    "index_gaps": 0,
+    "time_not_monotonic": 0,
+    "tasks_created": 4591,
+    "tasks_closed": 4581,
+    "closed_without_created": 0,
+    "negative_durations": 0,
+    "open_processes": 10,
+    "events_after_cutoff": 25,
+    "processes_with_events_after_cutoff": 10,
+    "events_outside_work_hours_or_weekend": 0,
+    "starts_at_exactly_0900": 742,
+    "single_initiator": 1
+  },
+  "request_types": {
+    "standard": 635,
+    "contract": 197,
+    "urgent": 168
+  },
+  "final": {
+    "fulfilled": 939,
+    "rejected": 51,
+    "OPEN": 10
+  },
+  "typical_routes": {
+    "standard: CHK-MGR-BUD-EXE": 498,
+    "contract: CHK-MGR-BUD-LEG-EXE": 150,
+    "urgent: CHK-MGR-BUD-EXE": 133,
+    "standard: CHK-MGR-REW-CHK-MGR-BUD-EXE": 69,
+    "standard: CHK-MGR": 31,
+    "urgent: CHK-MGR-REW-CHK-MGR-BUD-EXE": 23,
+    "contract: CHK-MGR-REW-CHK-MGR-BUD-LEG-EXE": 20,
+    "contract: CHK-MGR": 15
+  },
+  "baselines_work_hours": {
+    "CHK/standard": {
+      "n": 764.0,
+      "med": 0.398,
+      "q1": 0.299,
+      "q3": 0.563,
+      "fence": 1.883
+    },
+    "CHK/urgent": {
+      "n": 192.0,
+      "med": 0.137,
+      "q1": 0.103,
+      "q3": 0.179,
+      "fence": 0.561
+    },
+    "CHK/contract": {
+      "n": 225.0,
+      "med": 0.413,
+      "q1": 0.292,
+      "q3": 0.561,
+      "fence": 1.905
+    },
+    "MGR/standard": {
+      "n": 742.0,
+      "med": 2.002,
+      "q1": 1.449,
+      "q3": 2.723,
+      "fence": 9.095
+    },
+    "MGR/urgent": {
+      "n": 189.0,
+      "med": 0.7,
+      "q1": 0.498,
+      "q3": 0.952,
+      "fence": 3.221
+    },
+    "MGR/contract": {
+      "n": 218.0,
+      "med": 1.966,
+      "q1": 1.454,
+      "q3": 2.619,
+      "fence": 8.443
+    },
+    "REW/standard": {
+      "n": 123.0,
+      "med": 1.422,
+      "q1": 1.114,
+      "q3": 1.762,
+      "fence": 5.002
+    },
+    "REW/urgent": {
+      "n": 173.0,
+      "med": 1.314,
+      "q1": 0.876,
+      "q3": 1.701,
+      "fence": 5.823
+    },
+    "REW/contract": {
+      "n": 173.0,
+      "med": 1.314,
+      "q1": 0.876,
+      "q3": 1.701,
+      "fence": 5.823
+    },
+    "BUD/standard": {
+      "n": 599.0,
+      "med": 2.599,
+      "q1": 1.816,
+      "q3": 3.508,
+      "fence": 11.966
+    },
+    "BUD/urgent": {
+      "n": 160.0,
+      "med": 0.914,
+      "q1": 0.671,
+      "q3": 1.212,
+      "fence": 3.919
+    },
+    "BUD/contract": {
+      "n": 182.0,
+      "med": 2.448,
+      "q1": 1.783,
+      "q3": 3.717,
+      "fence": 13.388
+    },
+    "EXE/standard": {
+      "n": 597.0,
+      "med": 4.914,
+      "q1": 3.431,
+      "q3": 6.576,
+      "fence": 22.299
+    },
+    "EXE/urgent": {
+      "n": 160.0,
+      "med": 1.752,
+      "q1": 1.291,
+      "q3": 2.332,
+      "fence": 7.536
+    },
+    "EXE/contract": {
+      "n": 182.0,
+      "med": 5.225,
+      "q1": 3.846,
+      "q3": 6.602,
+      "fence": 20.381
+    },
+    "LEG/standard": {
+      "n": 182.0,
+      "med": 3.733,
+      "q1": 2.763,
+      "q3": 5.338,
+      "fence": 18.213
+    },
+    "LEG/urgent": {
+      "n": 182.0,
+      "med": 3.733,
+      "q1": 2.763,
+      "q3": 5.338,
+      "fence": 18.213
+    },
+    "LEG/contract": {
+      "n": 182.0,
+      "med": 3.733,
+      "q1": 2.763,
+      "q3": 5.338,
+      "fence": 18.213
+    }
+  },
+  "anomaly_rows": 88,
+  "anomalous_processes": 80,
+  "by_type": {
+    "Аномально долгий этап": 16,
+    "Внеплановая проверка (auditor)": 8,
+    "Зависшее задание в открытой заявке": 8,
+    "Исполнение до согласования": 8,
+    "Мгновенное прохождение этапов": 8,
+    "Повторная проверка без возврата": 8,
+    "Пропущен этап: согласование руководителем": 16,
+    "Согласование не руководителем": 8,
+    "Циклические возвраты на доработку": 8
+  }
+}
